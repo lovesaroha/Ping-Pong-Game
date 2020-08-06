@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+
+<body>
+    <div class="container mb-4 mt-4">
+        <center>
+            <!-- Title -->
+            <h1 style="font-size: 3.5rem;">
+                <font class="text-primary">P</font>ing <font class="text-primary">P</font>ong  <small
+                    class="text-muted"> ( Game )</small>
+            </h1>
+            <h4>Ping-pong is a sport in which two players hit a lightweight ball, also known as the ping-pong ball, back and forth across a table using small rackets.</h4>
+        </center>
+        <div class="row mx-auto mb-3" style="max-width: 700px;">
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="media">
+                            <i class="fal fa-smile text-primary fa-4x mr-3"></i>
+                            <div class="media-body">
+                              <h4 class="mb-0">Player One </h4>
+                               <h4 class="text-muted">Score <font class="text-primary" id="playerOneScore_ID">0</font></h4>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <div class="media">
+                            <i class="fal fa-smile text-primary fa-4x mr-3"></i>
+                            <div class="media-body">
+                              <h4 class="mb-0">Player Two </h4>
+                               <h4 class="text-muted">Score <font class="text-primary" id="playerTwoScore_ID">0</font></h4>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <h4 class="text-muted">(W ,S) keys for player one and (Up , Down) keys for player two.</h4>
+            <!-- Canvas with map image  -->
+            <canvas style="background: url('assets/images/back.png');" class="shadow mt-3 mb-0" height="420" width="620"
+                id="myCanvas"></canvas>
+        </center>
+        <div class="mt-2 card shadow-sm">
+            <div class="card-body">
+                <h4>Love Saroha <br>
+                    <font class="text-primary"><i class="fad fa-envelope"></i> lovesaroha1994@gmail.com</font>
+                </h4>
+                <h4>Source Code <br><a href="https://github.com/lovesaroha/Ping-Pong-Game" target="_blank"><i
+                            class="fad fa-code-merge text-primary"></i>
+                        https://github.com/lovesaroha/Ping-Pong-Game</a></h4>
+                <h4>Website <br><a href="https://lovesaroha.com"><i class="fad fa-link text-primary"></i>
+                        www.lovesaroha.com</a></h4>
+            </div>
+        </div>
+    </div>
+    <!-- Include script.js file -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
