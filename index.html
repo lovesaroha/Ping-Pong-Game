@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags. -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="ping pong game">
+    <title>Ping Pong Game</title>
+    <!-- Include css files. -->
+    <link rel="stylesheet" type="text/css" href="./assets/style.css">
+</head>
+
+<body>
+    <div class="container w-full mx-auto max-w-8/12 md:px-4 pb-8">
+        <!-- Header. -->
+        <center>
+            <h1 class="font-bold display-1 underline">
+                Ping Pong 2D
+            </h1>
+            <h4 class="text-subtitle mb-6">Ping-pong is a sport in which two players hit a lightweight ball, also known
+                as the ping-pong ball, back
+                and forth across a table using small rackets.</h4>
+        </center>
+        <!-- Score board. -->
+        <div class="md:flex flex-wrap mb-3 justify-center gap-4">
+            <div class="p-2 bg-primary mb-1 px-4 max-w-sm shadow-md">
+                <h3 class="font-bold text-white px-4 mb-0" id="playerOneScore_id"> 0 </h3>
+            </div>
+            <div class="p-2 bg-primary mb-1 px-4 max-w-sm shadow-md">
+                <h3 class="font-bold text-white px-4 mb-0" id="playerTwoScore_id"> 0 </h3>
+            </div>
+        </div>
+        <div class="bg-light mx-auto max-w-xl p-2 text-center">
+            <h4 class="text-gray mb-0">(W ,S) keys for left and (Up , Down) keys for right.</h4>
+        </div>
+    </div>
+    <center>
+        <!-- Canvas with map image.  -->
+        <canvas style="background: url('assets/background.png');" class="shadow-md mt-3 mb-2 hide-on-md" height="420"
+            width="620" id="myCanvas"></canvas>
+    </center>
+    <!-- Footer. -->
+    <div class="mb-2 card text-center p-2 mx-auto max-w-xl">
+        <h4 class="text-subtitle"><a href="https://github.com/lovesaroha/Ping-Pong-Game"
+                target="_blank">LoveSaroha/Ping-Pong-Game</a></h4>
+        <h3 class="text-subtitle font-bold mb-0 hover:underline cursor-pointer"
+            onclick="javascript: window.location = 'https://lovesaroha.com';">Love Saroha</h3>
+        <h4 class="text-gray">lovesaroha1994@gmail.com</h4>
+    </div>
+    <!-- Include script.js file -->
+    <script type="text/javascript" src="./assets/script.js"></script>
+</body>
+
+</html>
