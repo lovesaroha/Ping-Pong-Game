@@ -3,4 +3,4 @@
 
 ![game](https://raw.githubusercontent.com/lovesaroha/gimages/main/10.png)
 
-[lovesaroha/p/Ping-Pong-Game](https://lovesaroha.com/p/Ping-Pong-Game)
+[lovesaroha/Ping-Pong-Game](https://games.lovesaroha.com/Ping-Pong-Game)
